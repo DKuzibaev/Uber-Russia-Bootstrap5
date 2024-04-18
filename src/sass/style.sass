@@ -412,98 +412,72 @@ nav
         text-transform: uppercase
         &:hover
           color: $coral_color
-.wrapper
-  min-height: 133.5px
-  padding: 12px 22px
-  display: flex
-  justify-content: space-between
-  align-items: flex-start
 
-.s_network
-  margin-top: 37px
-  display: flex
-  justify-content: space-between
-  align-items: center
-  .s_network_item
-    width: 35px
-    height: 35px
-    background: rgb(7, 7, 22)
-    border-radius: 100%
+footer 
+  padding: 14px 23px 39px 23px
+  a 
+    &:hover 
+      text-decoration: none
+    
+.footer
+  &_divider
+    width: 299px
+    height: 4px
+    background-color: #1fbad6
     margin: 0 auto
-    margin-right: 6px
+  &_wrapper
+    display: flex 
+    justify-content: space-between
+    align-items: flex-start
+    padding-top: 32px
+  &_wrapper > div 
+    width: 33%
+    &:nth-child(3)
+      display: flex 
+      justify-content: flex-end
+  &_social
+    width: 160px
     display: flex
-    justify-content: center
-    align-items: center
-    img
-      display: block
-
-.footer_menu
-  display: flex
-  justify-content: center
-  flex-direction: column
-  align-items: center
-  text-align: center
-  margin-left: 8%
-  &::before
-    content: ''
-    width: 301px
-    height: 7px
-    background: $footer_line_color
-  .pd_rigth
-    padding-right: 40px
-  .big_a_links
-    padding-top: 30px
-    // margin-top: 30px
-    .big_link_item
-      flex-direction: row
-      text-transform: uppercase
-      color: rgb(7, 7, 22)
-      font-size: 15px
-      font-weight: 300
-      letter-spacing: 0px
-      text-align: center 
-      text-decoration: none
-  .low_a_links
-    padding-top: 10px  
-    .low_link_item
-      color: rgb(153, 153, 153)
-      font-size: 11px
-      font-weight: 300
-
-      text-align: center 
-      text-transform: uppercase
-      text-decoration: none
-  .pd_rigth_low
-    padding-right: 23px
-  .lang_block
-    padding-top: 10px
-    .lang_change
-      color: rgb(31, 186, 214)
+    justify-content: space-between
+    &_item 
+      display: flex 
+      justify-content: center
+      align-items: center
+      margin: 0 4px 
+      width: 32px
+      height: 32px
+      background-color: #070716
+      border-radius: 100%
+      i 
+        color: #fff
+  &_links
+    width: 390px
+    margin: 0 auto
+    &_main 
+      display: flex 
+      justify-content: space-between
+      padding: 0 10px
+      a 
+        color: #070716
+        font-size: 15px
+        font-weight: 300
+        text-transform: uppercase
+    &_sub 
+      display: flex 
+      justify-content: space-between
+      margin-top: 10px
+      a 
+        color: #999999
+        font-size: 11px
+        font-weight: 300
+        text-transform: uppercase
+    &_lang 
+      display: block 
+      margin: 0 auto
+      color: #1fbad6
       font-size: 11px
       font-weight: 400
-      text-align: center
+      margin-top: 19px
       text-transform: uppercase
-      text-decoration: none
-      &:hover
-        color: $coral_color
-.apps_link
-  margin-top: 40px
-  
-
-
-
-          
-
-
-
-
-
-        
-
-
-    
-
-         
-    
-
+      text-align: center
 
